@@ -243,7 +243,7 @@ USER_AGENT = "weather-app/1.0"
 server = Server("weather")
 ```
 
-Now comes the interesting bit where we write the could that exposes functions to the calling client. List tools is an MCP feature that returns our available functions to the client, which are get_alerts and get_forecast in this case.
+Now comes the interesting bit where we write the code that exposes functions to the calling client. List tools is an MCP feature that returns our available functions to the client, which are get_alerts and get_forecast in this case.
 
 ```python
 @server.list_tools()
